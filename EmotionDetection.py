@@ -1,5 +1,4 @@
 import math
-from facial_emotion_recognition import EmotionRecognition
 import openai
 import cv2
 import dlib
