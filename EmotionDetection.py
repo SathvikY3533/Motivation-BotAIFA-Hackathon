@@ -1,5 +1,5 @@
-import math
 import openai
+import math
 import cv2
 import dlib
 import numpy as np
@@ -156,7 +156,7 @@ if uploaded_file is not None:
             if emotion_prob > max_emotion_prob:
                 max_emotion_prob = emotion_prob
 
-        st.subheader(f"{dominant_emotion}: {max_emotion_prob}")
+        st.subheader(f"{dominant_emotion}: {max_emotion_prob}%")
         st.image(img, channels="BGR")
 
         st.header("Facial landmarks: ")
