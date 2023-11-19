@@ -11,7 +11,6 @@ from openai.error import AuthenticationError
 st.set_page_config(initial_sidebar_state='collapsed')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
-
 st.title("Analyzing Emotions - :mag: :smiling_face_with_tear:")
 st.text(
     "A bot which analyzes your mood (using an image) and provides feedback/motivation\nbased on the emotion depicted from the provided image! \n(IMPORTANT: the bot is NOT always accurate in detecting the right emotions)")
